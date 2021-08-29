@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="lsd -l"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=9'
+alias ls="lsd"
 alias la="lsd -al"
-alias vi="vim"
-neofetch
+alias ll="lsd -l"
